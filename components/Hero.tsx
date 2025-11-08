@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  'https://picsum.photos/seed/hero1/1920/1080',
-  'https://picsum.photos/seed/hero2/1920/1080',
-  'https://picsum.photos/seed/hero3/1920/1080',
+  'https://picsum.photos/seed/webdesign/1920/1080',
+  'https://picsum.photos/seed/appdev/1920/1080',
+  'https://picsum.photos/seed/coding/1920/1080',
 ];
 
 const Hero: React.FC = () => {
