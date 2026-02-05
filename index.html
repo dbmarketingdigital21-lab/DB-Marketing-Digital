@@ -210,47 +210,64 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2 mx-auto group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                                 <span class="text-lg">dbmarketingdigital21@gmail.com</span>
                             </a>
-                            <a href="https://wa.me/5561986395211" target="_blank" rel="noopener noreferrer" class="block text-gray-300 hover:text-brand-gold transition-colors group">
+                            <a href="https://wa.me/5561986341256" target="_blank" rel="noopener noreferrer" class="block text-gray-300 hover:text-brand-gold transition-colors group">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2 mx-auto group-hover:scale-110 transition-transform" viewBox="0 0 448 512" fill="currentColor">
                                     <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 221.9-99.6 221.9-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.8 0-67.3-8.8-95.2-25.5l-6.7-4-70.7 18.5 18.8-68.8-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.8-16.2-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
                                 </svg>
-                                <span class="text-lg">+55 61 98639-5211</span>
                             </a>
                         </div>
                     </div>
-                    <form id="contact-form" class="space-y-4">
-                        <div>
-                            <label for="name" class="block text-brand-navy font-semibold mb-1">Nome Completo *</label>
-                            <input type="text" id="name" name="name" required class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"/>
+                    
+                    <div class="relative">
+                        <form id="contact-form" class="space-y-4 transition-all duration-300">
+                            <div>
+                                <label for="name" class="block text-brand-navy font-semibold mb-1">Nome Completo *</label>
+                                <input type="text" id="name" name="name" required class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"/>
+                            </div>
+                             <div>
+                                <label for="email" class="block text-brand-navy font-semibold mb-1">E-mail Corporativo *</label>
+                                <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"/>
+                            </div>
+                             <div>
+                                <label for="company" class="block text-brand-navy font-semibold mb-1">Empresa</label>
+                                <input type="text" id="company" name="company" class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"/>
+                            </div>
+                             <div>
+                                <label for="projectType" class="block text-brand-navy font-semibold mb-1">Tipo de Projeto</label>
+                                <select id="projectType" name="projectType" class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none bg-white">
+                                    <option>Web Design</option>
+                                    <option>Desenvolvimento de Apps</option>
+                                    <option>Automações com IA</option>
+                                    <option>Design de Marca</option>
+                                    <option>Outro</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-brand-navy font-semibold mb-1">Mensagem *</label>
+                                <textarea id="message" name="message" rows="4" required class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"></textarea>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="consent" name="consent" required class="h-4 w-4 text-brand-gold focus:ring-brand-gold border-gray-300 rounded"/>
+                                <label for="consent" class="ml-2 block text-sm text-brand-navy">Concordo com os termos e condições. *</label>
+                            </div>
+                            <button type="submit" class="w-full bg-brand-gold text-brand-dark font-bold py-3 px-6 rounded-md hover:bg-brand-gold-hover transition-colors">Enviar Solicitação</button>
+                        </form>
+
+                        <div id="form-success" class="hidden flex flex-col items-center justify-center h-full text-center py-10 bg-white rounded-lg animate-on-scroll is-visible">
+                            <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold text-brand-navy mb-2">Mensagem Pronta!</h3>
+                            <p class="text-gray-600 mb-6 max-w-md mx-auto">
+                                Seu cliente de e-mail foi aberto com os detalhes preenchidos. Por favor, <strong>clique em enviar no seu e-mail</strong> para concluir o contato.
+                            </p>
+                            <button id="back-to-form-btn" class="text-brand-gold font-semibold hover:underline">
+                                Enviar outra mensagem
+                            </button>
                         </div>
-                         <div>
-                            <label for="email" class="block text-brand-navy font-semibold mb-1">E-mail Corporativo *</label>
-                            <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"/>
-                        </div>
-                         <div>
-                            <label for="company" class="block text-brand-navy font-semibold mb-1">Empresa</label>
-                            <input type="text" id="company" name="company" class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"/>
-                        </div>
-                         <div>
-                            <label for="projectType" class="block text-brand-navy font-semibold mb-1">Tipo de Projeto</label>
-                            <select id="projectType" name="projectType" class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none bg-white">
-                                <option>Web Design</option>
-                                <option>Desenvolvimento de Apps</option>
-                                <option>Automações com IA</option>
-                                <option>Design de Marca</option>
-                                <option>Outro</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="message" class="block text-brand-navy font-semibold mb-1">Mensagem *</label>
-                            <textarea id="message" name="message" rows="4" required class="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-brand-gold focus:outline-none"></textarea>
-                        </div>
-                        <div class="flex items-center">
-                            <input type="checkbox" id="consent" name="consent" required class="h-4 w-4 text-brand-gold focus:ring-brand-gold border-gray-300 rounded"/>
-                            <label for="consent" class="ml-2 block text-sm text-brand-navy">Concordo com os termos e condições. *</label>
-                        </div>
-                        <button type="submit" class="w-full bg-brand-gold text-brand-dark font-bold py-3 px-6 rounded-md hover:bg-brand-gold-hover transition-colors">Enviar Solicitação</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -283,7 +300,7 @@
                     <h4 class="font-bold mb-4">Contato</h4>
                     <ul class="space-y-2 text-gray-400">
                         <li><a href="mailto:dbmarketingdigital21@gmail.com" class="hover:text-white transition-colors">dbmarketingdigital21@gmail.com</a></li>
-                        <li><a href="https://wa.me/5561986395211" class="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">+55 61 98639-5211</a></li>
+                        <li><a href="https://wa.me/5561986341256" class="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">+55 61 98634-1256</a></li>
                     </ul>
                 </div>
             </div>
@@ -294,29 +311,118 @@
     </footer>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/5561986395211" target="_blank" rel="noopener noreferrer" aria-label="Conversar no WhatsApp" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 hover:scale-110 transform transition-all duration-300 z-40">
+    <a href="https://wa.me/5561986341256" target="_blank" rel="noopener noreferrer" aria-label="Conversar no WhatsApp" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 hover:scale-110 transform transition-all duration-300 z-40">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9" viewBox="0 0 448 512" fill="currentColor">
             <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 221.9-99.6 221.9-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.8 0-67.3-8.8-95.2-25.5l-6.7-4-70.7 18.5 18.8-68.8-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.8-16.2-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
         </svg>
     </a>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-[60] bg-black/90 hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <button id="lightbox-close" class="absolute top-6 right-6 text-white hover:text-brand-gold transition-colors focus:outline-none z-[70]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <img id="lightbox-img" src="" alt="Projeto em tela cheia" class="max-w-full max-h-[90vh] rounded-md shadow-2xl transform scale-95 transition-transform duration-300">
+    </div>
     
     <script>
     document.addEventListener('DOMContentLoaded', () => {
 
         // --- DATA ---
+        /*
+          COMO USAR IMAGENS ONLINE (DRIVE OU IMGUR):
+          OPÇÃO 2: IMGUR (Recomendado)
+          1. Vá em imgur.com/upload e arraste sua foto.
+          2. Clique com botão direito na foto carregada e escolha "Copiar endereço da imagem".
+          3. O link deve terminar com .jpg ou .png. Use esse link direto.
+        */
         const PROJECTS_DATA = [
-            { id: 1, category: 'Web Design', image: 'https://picsum.photos/seed/project1/600/400', title: 'Site Corporativo para FinTech', description: 'Um site seguro e profissional para uma empresa de tecnologia financeira, focado em construir confiança.' },
-            { id: 2, category: 'Web Design', image: 'https://picsum.photos/seed/project2/600/400', title: 'Plataforma de Reservas de Viagem', description: 'Um site de reservas intuitivo com filtros complexos e integrações de pagamento seguras.' },
-            { id: 3, category: 'Web Design', image: 'https://picsum.photos/seed/project3/600/400', title: 'Portfólio Online para Arquiteto', description: 'Um portfólio visualmente impressionante e minimalista para exibir projetos arquitetônicos de alto padrão.' },
-            { id: 4, category: 'Desenvolvimento de Apps', image: 'https://picsum.photos/seed/project4/600/400', title: 'App de Meditação e Mindfulness', description: 'Um aplicativo móvel relaxante para iOS e Android que guia os usuários em sessões de meditação.' },
-            { id: 5, category: 'Desenvolvimento de Apps', image: 'https://picsum.photos/seed/project5/600/400', title: 'Plataforma Mobile de E-learning', description: 'Um app multiplataforma para uma startup de educação, oferecendo cursos em vídeo e quizzes.' },
-            { id: 6, category: 'Desenvolvimento de Apps', image: 'https://picsum.photos/seed/project6/600/400', title: 'Gestão Logística Interna', description: 'Um app empresarial para rastrear estoque e gerenciar cadeias de suprimentos para distribuidores.' },
-            { id: 7, category: 'Automações com IA', image: 'https://picsum.photos/seed/project7/600/400', title: 'Vendedor Automático no WhatsApp', description: 'Um sistema que responde clientes no WhatsApp automaticamente com a persuasão de um profissional de vendas experiente.' },
-            { id: 8, category: 'Automações com IA', image: 'https://picsum.photos/seed/project8/600/400', title: 'Chatbot de Atendimento 24h', description: 'Robô de atendimento inteligente que soluciona dúvidas de clientes instantaneamente em seu site, reduzindo a fila de espera.' },
-            { id: 9, category: 'Automações com IA', image: 'https://picsum.photos/seed/project9/600/400', title: 'E-mail Marketing Personalizado', description: 'Um sistema automatizado que envia e-mails altamente personalizados para leads com base em seu comportamento.' },
-            { id: 10, category: 'Design de Marca', image: 'https://picsum.photos/seed/project10/600/400', title: 'Identidade Visual para Cafeteria', description: 'Pacote completo de branding, incluindo logotipo, embalagens e ativos digitais para uma nova torrefadora de café.' },
-            { id: 11, category: 'Design de Marca', image: 'https://picsum.photos/seed/project11/600/400', title: 'Redesign de UI/UX para SaaS', description: 'Uma reformulação completa da interface e experiência do usuário para uma plataforma de gestão de projetos.' },
-            { id: 12, category: 'Design de Marca', image: 'https://picsum.photos/seed/project12/600/400', title: 'Material de Marketing para Startup', description: 'Design de pitch decks, brochuras e modelos de mídia social para uma startup de tecnologia.' },
+            { 
+                id: 1, 
+                category: 'Web Design', 
+                image: 'https://i.imgur.com/6ugb6rz.jpg', 
+                title: 'Site Corporativo para FinTech', 
+                description: 'Um site seguro e profissional para uma empresa de tecnologia financeira, focado em construir confiança.' 
+            },
+            { 
+                id: 2, 
+                category: 'Web Design', 
+                image: 'https://i.imgur.com/LEXkoSA.jpg', 
+                title: 'Plataforma de Reservas de Viagem', 
+                description: 'Um site de reservas intuitivo com filtros complexos e integrações de pagamento seguras.' 
+            },
+            { 
+                id: 3, 
+                category: 'Web Design', 
+                image: 'https://i.imgur.com/Nbc9e5k.jpg', 
+                title: 'Portfólio Online para Arquiteto', 
+                description: 'Um portfólio visualmente impressionante e minimalista para exibir projetos arquitetônicos de alto padrão.' 
+            },
+            { 
+                id: 4, 
+                category: 'Desenvolvimento de Apps', 
+                image: 'https://i.imgur.com/4umXsPX.jpg', 
+                title: 'App de Meditação e Mindfulness', 
+                description: 'Um aplicativo móvel relaxante para iOS e Android que guia os usuários em sessões de meditação.' 
+            },
+            { 
+                id: 5, 
+                category: 'Desenvolvimento de Apps', 
+                image: 'https://i.imgur.com/qS9i4Yv.jpg', 
+                title: 'Plataforma Mobile de E-learning', 
+                description: 'Um app multiplataforma para uma startup de educação, oferecendo cursos em vídeo e quizzes.' 
+            },
+            { 
+                id: 6, 
+                category: 'Desenvolvimento de Apps', 
+                image: 'https://i.imgur.com/bH9KLZ3.jpg', 
+                title: 'Gestão Logística Interna', 
+                description: 'Um app empresarial para rastrear estoque e gerenciar cadeias de suprimentos para distribuidores.' 
+            },
+            { 
+                id: 7, 
+                category: 'Automações com IA', 
+                image: 'https://i.imgur.com/zZHj4fS.jpg', 
+                title: 'Vendedor Automático no WhatsApp', 
+                description: 'Um sistema que responde clientes no WhatsApp automaticamente com a persuasão de um profissional de vendas experiente.' 
+            },
+            { 
+                id: 8, 
+                category: 'Automações com IA', 
+                image: 'https://i.imgur.com/rteZaNL.jpg', 
+                title: 'Chatbot de Atendimento 24h', 
+                description: 'Robô de atendimento inteligente que soluciona dúvidas de clientes instantaneamente em seu site, reduzindo a fila de espera.' 
+            },
+            { 
+                id: 9, 
+                category: 'Automações com IA', 
+                image: 'https://i.imgur.com/Y8xUB9H.jpg', 
+                title: 'E-mail Marketing Personalizado', 
+                description: 'Um sistema automatizado que envia e-mails altamente personalizados para leads com base em seu comportamento.' 
+            },
+            { 
+                id: 10, 
+                category: 'Design de Marca', 
+                image: 'https://i.imgur.com/62Q2xky.jpg', 
+                title: 'Identidade Visual para Cafeteria', 
+                description: 'Pacote completo de branding, incluindo logotipo, embalagens e ativos digitais para uma nova torrefadora de café.' 
+            },
+            { 
+                id: 11, 
+                category: 'Design de Marca', 
+                image: 'https://i.imgur.com/oRjokjg.jpg', 
+                title: 'Logotipo para Escritório de Advocacia', 
+                description: 'Criação de identidade visual sóbria e elegante, transmitindo confiança, autoridade e profissionalismo jurídico.' 
+            },
+            { 
+                id: 12, 
+                category: 'Design de Marca', 
+                image: 'https://i.imgur.com/UMjLtyy.jpg', 
+                title: 'Branding para Clínica de Estética', 
+                description: 'Desenvolvimento de marca delicada e moderna, focada em bem-estar, beleza e sofisticação para o público feminino.' 
+            },
         ];
 
         // --- HEADER LOGIC ---
@@ -393,10 +499,60 @@
             heroBgs[currentImageIndex].classList.add('opacity-100');
         }, 5000);
 
+        // --- LIGHTBOX LOGIC ---
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.getElementById('lightbox-close');
+
+        function openLightbox(src) {
+            if(!lightbox || !lightboxImg) return;
+            lightboxImg.src = src;
+            lightbox.classList.remove('hidden');
+            // Small timeout to allow display:block to apply before opacity transition
+            setTimeout(() => {
+                lightbox.classList.remove('opacity-0');
+                lightboxImg.classList.remove('scale-95');
+                lightboxImg.classList.add('scale-100');
+            }, 10);
+            document.body.style.overflow = 'hidden'; // Prevent scrolling
+        }
+
+        function closeLightbox() {
+            if(!lightbox || !lightboxImg) return;
+            lightbox.classList.add('opacity-0');
+            lightboxImg.classList.remove('scale-100');
+            lightboxImg.classList.add('scale-95');
+            setTimeout(() => {
+                lightbox.classList.add('hidden');
+                lightboxImg.src = '';
+            }, 300);
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+
+        if(lightboxClose) {
+            lightboxClose.addEventListener('click', closeLightbox);
+        }
+        
+        if(lightbox) {
+            // Close on background click
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) {
+                    closeLightbox();
+                }
+            });
+            
+            // Close on Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+                    closeLightbox();
+                }
+            });
+        }
+
         // --- PORTFOLIO FILTER ---
         const portfolioGrid = document.getElementById('portfolio-grid');
         const filterButtons = document.querySelectorAll('.portfolio-filter-btn');
-        let activeFilter = 'Web Design'; // Default filter
+        let activeFilter = 'Todos'; // Default filter (Changed from 'Web Design' to 'Todos' based on user preference typically, or keep default)
 
         function renderProjects() {
             if (!portfolioGrid) return;
@@ -408,11 +564,22 @@
             filteredProjects.forEach(project => {
                 const projectEl = document.createElement('div');
                 projectEl.className = 'bg-white rounded-lg shadow-lg overflow-hidden group';
+                // Added cursor-pointer and click events for lightbox triggers
                 projectEl.innerHTML = `
-                    <div class="overflow-hidden"><img src="${project.image}" alt="${project.title}" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" /></div>
+                    <div class="overflow-hidden cursor-pointer project-trigger relative" data-img="${project.image}">
+                        <img 
+                            src="${project.image}" 
+                            alt="${project.title}" 
+                            class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Imagem+Indisponível';"
+                        />
+                         <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="text-white font-semibold bg-black/50 px-4 py-2 rounded-full backdrop-blur-sm pointer-events-none">Ver Ampliado</span>
+                        </div>
+                    </div>
                     <div class="p-6">
                         <p class="text-brand-gold text-sm font-semibold mb-1">${project.category}</p>
-                        <h3 class="text-xl font-bold text-brand-navy mb-2">${project.title}</h3>
+                        <h3 class="text-xl font-bold text-brand-navy mb-2 cursor-pointer project-trigger hover:text-brand-gold transition-colors" data-img="${project.image}">${project.title}</h3>
                         <p class="text-gray-600 mb-4">${project.description}</p>
                         <a href="#contact" class="font-semibold text-brand-navy hover:text-brand-gold transition-colors">
                             Quero um resultado similar &rarr;
@@ -420,6 +587,15 @@
                     </div>
                 `;
                 portfolioGrid.appendChild(projectEl);
+            });
+            
+            // Add click listeners to triggers
+            document.querySelectorAll('.project-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                   // Prevent bubbling if clicking inner elements that might have their own logic (though none here)
+                   e.stopPropagation();
+                   openLightbox(trigger.dataset.img); 
+                });
             });
         }
         
@@ -462,7 +638,10 @@
 
         // --- CONTACT FORM ---
         const contactForm = document.getElementById('contact-form');
-        if (contactForm) {
+        const formSuccess = document.getElementById('form-success');
+        const backToFormBtn = document.getElementById('back-to-form-btn');
+
+        if (contactForm && formSuccess && backToFormBtn) {
             contactForm.addEventListener('submit', (e) => {
                 e.preventDefault();
                 const formData = new FormData(contactForm);
@@ -478,10 +657,24 @@
                     return;
                 }
 
-                const subject = `Nova Solicitação de Projeto de ${name}`;
-                const body = `Nome: ${name}\nE-mail: ${email}\nEmpresa: ${company}\nTipo de Projeto: ${projectType}\n\nMensagem:\n${message}`;
-                
-                window.location.href = `mailto:dbmarketingdigital21@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                // Show success message in UI
+                contactForm.classList.add('hidden');
+                formSuccess.classList.remove('hidden');
+
+                // Trigger mailto after a brief delay to allow UI to update
+                setTimeout(() => {
+                    const subject = `Nova Solicitação de Projeto de ${name}`;
+                    const body = `Nome: ${name}\nE-mail: ${email}\nEmpresa: ${company}\nTipo de Projeto: ${projectType}\n\nMensagem:\n${message}`;
+                    window.location.href = `mailto:dbmarketingdigital21@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                    
+                    // Reset form
+                    contactForm.reset();
+                }, 500);
+            });
+
+            backToFormBtn.addEventListener('click', () => {
+                formSuccess.classList.add('hidden');
+                contactForm.classList.remove('hidden');
             });
         }
 
